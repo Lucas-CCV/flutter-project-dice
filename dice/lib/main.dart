@@ -15,7 +15,12 @@ void main() {
               end: Alignment.bottomRight,
             ),
           ),
-          child: Center(child: Text('Hello World!')),
+          child: Center(
+            child: Text(
+              'Hello World!',
+              style: TextStyle(color: Colors.white, fontSize: 28),
+            ),
+          ),
         ),
       ),
     ),
